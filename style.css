@@ -670,8 +670,8 @@ textarea {
 }
 
 .hero-visual-orb {
-  width: 420px;
-  height: 420px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   position: relative;
   display: flex;
@@ -716,11 +716,11 @@ textarea {
 }
 
 .hero-visual-inner .hero-portrait {
-  width: 56%;
-  max-width: 270px;
+  width: 60%;
+  max-width: 330px;
   height: auto;
   aspect-ratio: 2 / 3;
-  border-radius: 26px;
+  border-radius: 28px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
@@ -1935,8 +1935,8 @@ textarea {
   }
 
   .hero-visual-orb {
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
   }
 }
 
