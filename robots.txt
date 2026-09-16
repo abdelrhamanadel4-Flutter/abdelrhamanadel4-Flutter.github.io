@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abdelrhamanadel4-flutter.github.io/sitemap.xml

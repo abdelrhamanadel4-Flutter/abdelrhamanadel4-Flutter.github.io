@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#12122a"/>
+    </linearGradient>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#4834d4"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4834d4" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="400" cy="240" r="220" fill="url(#glow)" filter="url(#soft)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+  <g transform="translate(400,222)">
+    <rect x="-64" y="-64" width="128" height="128" rx="24" fill="url(#pg)"/>
+    <rect x="-64" y="-64" width="128" height="128" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+    <g stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -12 24 A 26 26 0 1 1 12 24 L 12 32 L -12 24 Z"/>
+      <path d="M -12 24 L -12 16 M 12 24 L 12 16"/>
+      <circle cx="3" cy="4" r="3" fill="#ffffff" stroke="none"/>
+      <circle cx="-7" cy="4" r="3" fill="#ffffff" stroke="none"/>
+      <path d="M 3 4 L 10 -4"/>
+      <path d="M -7 12 L -3 8"/>
+    </g>
+  </g>
+  <text x="400" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#ffffff" fill-opacity="0.75" letter-spacing="6">ISLAMIL PROJECT</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#ffffff" fill-opacity="0.35" letter-spacing="3">SPIRITUAL COMPANION</text>
+</svg>

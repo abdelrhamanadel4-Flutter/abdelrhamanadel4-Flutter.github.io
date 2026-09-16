@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#12122a"/>
+    </linearGradient>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#4834d4"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4834d4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="300" cy="190" r="220" fill="url(#glow)"/>
+  <g fill="#ffffff" fill-opacity="0.12">
+    <circle cx="60" cy="60" r="40" stroke="#6c5ce7" stroke-opacity="0.3" stroke-width="1.5" fill="none"/>
+    <circle cx="540" cy="340" r="40" stroke="#6c5ce7" stroke-opacity="0.3" stroke-width="1.5" fill="none"/>
+  </g>
+  <g transform="translate(300,165)" text-anchor="middle">
+    <rect x="-70" y="-70" width="140" height="140" rx="28" fill="url(#pg)"/>
+    <rect x="-70" y="-70" width="140" height="140" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"/>
+    <g fill="#ffffff">
+      <circle cx="0" cy="-14" r="22" fill="#6c5ce7" stroke="#ffffff" stroke-width="3"/>
+      <rect x="-28" y="8" width="56" height="30" rx="6"/>
+    </g>
+  </g>
+  <text x="300" y="272" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff" letter-spacing="4">NATIONAL TRAINING INSTITUTE</text>
+  <text x="300" y="308" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#ffffff" fill-opacity="0.55" letter-spacing="3">CERTIFICATION</text>
+  <line x1="150" y1="330" x2="450" y2="330" stroke="url(#pg)" stroke-width="2"/>
+</svg>
