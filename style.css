@@ -716,9 +716,11 @@ textarea {
 }
 
 .hero-visual-inner .hero-portrait {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  width: 62%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  border-radius: 28px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
